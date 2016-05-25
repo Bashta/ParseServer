@@ -1,0 +1,12 @@
+runtime: nodejs
+vm: true
+
+env_variables:
+  # --REQUIRED--
+  DATABASE_URI: no_quotes_in_env_vars
+  APP_ID: no_quotes_in_env_vars
+  MASTER_KEY: no_quotes_in_env_vars
+  # --OPTIONAL--
+  # FILE_KEY: <your-file-key>
+  PARSE_MOUNT: /parse
+  # CLOUD_CODE_MAIN:

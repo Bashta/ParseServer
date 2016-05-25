@@ -1,0 +1,27 @@
+{
+  "name": "Parse Server Example",
+  "description": "Custom parse server",
+  "repository": "add repo here",
+  "logo": "https://avatars.githubusercontent.com/u/4723439?s=160",
+  "keywords": ["node", "express", "parse"],
+  "env": {
+    "PARSE_MOUNT": {
+      "description": "Configure Parse API route. This is the app mounting point",
+      "value": "/parse"
+    },
+    "APP_ID": {
+      "description": "A unique identifier for your app.",
+      "value": ""
+    },
+    "MASTER_KEY": {
+      "description": "A key that overrides all permissions. Keep this secret.",
+      "value": ""
+    },
+    "SERVER_URL": {
+      "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
+      "value": ""
+    }
+  },
+  "image": "heroku/nodejs",
+  "addons": ["mongolab"]
+}
